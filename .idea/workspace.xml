@@ -36,7 +36,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Speed2">
+  <component name="RunManager" selected="Application.SearchForNumber">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xsis.day01.HelloWorld" />
       <module name="xsis" />
@@ -104,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchForNumber" />
         <item itemvalue="Application.Speed2" />
         <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Application.Logic01" />
         <item itemvalue="Application.SkipBilanganGanjil" />
-        <item itemvalue="Application.SearchForNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +134,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
