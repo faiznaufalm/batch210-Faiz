@@ -4,7 +4,13 @@
     <list default="true" id="d73f9440-d011-40c2-914c-c2889e26e2fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/xsis/com/xsis/day02/logic/Logic01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/xsis/com/xsis/day02/logic/Logic01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/xsis/com/xsis/day03/Array01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/xsis/com/xsis/day03/Array01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/xsis/com/xsis/day03/Logic03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/xsis/com/xsis/day03/Logic03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/xsis/com/xsis/day03/kotak.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/xsis/com/xsis/day03/kotak.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/xsis/day02/logic/Logic01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day02/logic/Logic01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xsis/day03/Array01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day03/Array01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xsis/day03/Logic03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day03/Logic03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xsis/day03/kotak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day03/kotak.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +50,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Logic09">
+  <component name="RunManager" selected="Application.Fisika">
+    <configuration name="Fisika" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.day04.Fisika" />
+      <module name="xsis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xsis.day04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Logic01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xsis.day02.logic.Logic01" />
       <module name="xsis" />
@@ -58,25 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Logic02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day02.logic.Logic02" />
-      <module name="xsis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xsis.day02.logic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Logic03 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day02.logic.Logic03" />
+      <option name="MAIN_CLASS_NAME" value="com.xsis.day04.Logic03" />
       <module name="xsis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.day02.logic.*" />
+          <option name="PATTERN" value="com.xsis.day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Logic08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day02.logic.Logic08" />
+    <configuration name="Logic03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.day03.Logic03" />
       <module name="xsis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.day02.logic.*" />
+          <option name="PATTERN" value="com.xsis.day03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Logic09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day02.logic.Logic09" />
+    <configuration name="Speed2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.day01.Speed2" />
       <module name="xsis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.day02.logic.*" />
+          <option name="PATTERN" value="com.xsis.day01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Logic09" />
+        <item itemvalue="Application.Fisika" />
         <item itemvalue="Application.Logic01" />
-        <item itemvalue="Application.Logic08" />
         <item itemvalue="Application.Logic03 (1)" />
-        <item itemvalue="Application.Logic02" />
+        <item itemvalue="Application.Speed2" />
+        <item itemvalue="Application.Logic03" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +137,7 @@
       <option name="presentableId" value="Default" />
       <updated>1567096441586</updated>
       <workItem from="1567096446427" duration="5983000" />
-      <workItem from="1567341005477" duration="2765000" />
+      <workItem from="1567341005477" duration="32263000" />
     </task>
     <servers />
   </component>

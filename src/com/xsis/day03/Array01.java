@@ -6,9 +6,9 @@ public class Array01 {
 
         Array01 arr = new Array01();
 
-//        arr.setBox(nums);
-//        arr.setDiagonalLeft(nums);
-         arr.setDiagonalRight(nums);
+        //arr.setBox(nums);
+        arr.setDiagonalLeft(nums);
+         //arr.setDiagonalRight(nums);
         }
 
         void setDiagonalLeft(int[][] nums){

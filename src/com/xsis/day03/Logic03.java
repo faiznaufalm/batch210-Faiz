@@ -2,64 +2,62 @@ package com.xsis.day03;
 
 public class Logic03 {
     public static void main(String[] args) {
-        int n = 5;
-        String [][] array = new String[n][n]; // 2-dimension array define...
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array.length; j++) {
-                if(i == 0 || (i == array.length-1 || j==0 || j==array.length-1)){ // if top,left,right,bottom line then this...
-                    array[i][j] = "*";
-                }else{ // if not border line then this...
-                    array[i][j] = " ";
+        int[][] nums = new int[7][7];
+        int[][] mat = new int[5][5];
+        Logic03 lg = new Logic03();
+
+        //lg.kotak(nums);
+        lg.soal01(mat);
+    }
+    void kotak(int[][] nums) {
+        int z = 2;
+        int interval = 1;
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = 0; j < nums.length; j++) {
+                if (i == 0 || (i == nums.length - 1 || j == 0 || j == nums.length - 1)) { // if top,left,right,bottom line then this...
+                    nums[i][j] = z;
+                    z = z + 3;
+                    interval += 1;
+                }
+                 else if (interval % 4 == 0){
+                     z = 3;
+                    }
+                else { // if not border line then this...
+                    System.out.printf("");
+
+                }
+            }
+        }
+
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = 0; j < nums.length; j++) {
+                System.out.print(nums[i][j] + "   ");
+            }
+            System.out.println("");
 
                 }
             }
 
-        }
+            void soal01(int[][] mat) {
+                int angka = 0;
+                for (int i = 0; i < mat.length; i++) {
+                    for (int j = 0; j < mat[i].length; j++) {
+                        if (i == j) {
+                            angka++;
+                            System.out.printf("%d ", mat[i][j] = angka);
+                        }else if (i > j) {
+                            System.out.printf("%s ", "X");
+                            } else if (i < j) {
+                            System.out.printf("%d ", mat[i][j] = 0);
 
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array.length; j++) {
-                System.out.print(array[i][j] + " ");
-            }
-            System.out.println("");
-        }
-    }
-}
-
-
-/*
-package com.xsis.day03;
-
-public class Logic03 {
-    public static void main(String[] args) {
-        int n = 7;
-        int tambah = 3;
-        int interval = 2;
-        int deret = 2;
-        int tiga = 3;
-        int [][] array = new int[n][n]; // 2-dimension array define...
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array.length; j++) {
-                if(i == 0 || (i == array.length-1 || j==0 || j==array.length-1)){ // if top,left,right,bottom line then this...
-                    array[i][j] = deret;
-                    interval +=1;
-                    if (interval % 6 == 0){
-                        System.out.print(array[i][j] = Integer.parseInt(tiga+""));
+                        }
                     }
-                    else{
-                        deret = deret+ tambah;
-                        System.out.print("|"+deret+"|");
-                    }
+                    System.out.println();
                 }
-            }
-
-        }
-
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array.length; j++) {
-                System.out.print(array[i][j] + "");
-            }
-            System.out.println("");
-        }
     }
+
+
+
 }
- */
+
+

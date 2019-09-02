@@ -23,7 +23,7 @@ public class kotak {
                     //ATAS
                     if (i == 0) {
                         System.out.print(atas);
-                        System.out.print("  ");
+                        System.out.print(" ");
 
                         atas += 3;
                         if (j == 2) {
@@ -63,12 +63,12 @@ public class kotak {
                             Kanan1 += 3;
                         }
                         if (i == 1 || i == 5) {
-                            System.out.print(" 3");
+                            System.out.print("  3");
                             System.out.print(" ");
                         }
                         break;
                     } else {
-                        System.out.print("    ");
+                        System.out.print("   ");
                         //System.out.print(" ");
                     }
 

@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Logic01 {
     public static void main(String[] args) {
         Logic01 lg = new Logic01();
-        //lg.testSoal1(14);
+        lg.testSoal1(7);
         //lg.testSoal2(14);
         //lg.testSoal3(7);
-        lg.testSoal5(7);
+        //lg.testSoal5(7);
         //lg.testSoal6(7);
         //lg.testSoal7(7);
         //lg.testSoal10(7);
