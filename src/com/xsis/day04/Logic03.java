@@ -8,8 +8,8 @@ public class Logic03 {
 
         Logic03 lg = new Logic03();
 
-        //lg.latihan01(mat);
-        lg.phytagoras(p);
+        lg.latihan01(mat);
+        //lg.phytagoras(p);
 
     }
 

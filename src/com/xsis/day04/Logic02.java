@@ -8,10 +8,10 @@ public class Logic02 {
     Logic02 logic = new Logic02();
 
     //logic.soal01(nums);
-    //logic.soal02(arr);
+    logic.soal02(arr);
     //logic.soal03(nums);
     //logic.soal04(nums);
-    logic.tes03(arr);
+    //logic.tes03(arr);
 }
 
     void soal01(int[][] nums) {
@@ -35,10 +35,11 @@ public class Logic02 {
     void soal02(int[] arr){
         int hasil =1;
         for (int i = 0; i < 7; i++){
-            if (i == 2 || i ==5) {
+            if (i ==0) {
+                hasil = hasil * 1;
+            }else if(i == 2 || (i == 5)) {
                 hasil = hasil * -3;
-            }
-            else if (i == 1){
+            }else{
                 hasil = hasil * 3;
             }
             System.out.print(hasil + " ");
