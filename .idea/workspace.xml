@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d73f9440-d011-40c2-914c-c2889e26e2fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xsis/day04/Logic02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day04/Logic02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xsis/day06/EmployeeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day06/EmployeeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/xsis/com/xsis/day07/EmployeeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/xsis/com/xsis/day07/EmployeeDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xsis/day07/EmployeeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day07/EmployeeDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +135,7 @@
       <workItem from="1567341005477" duration="32263000" />
       <workItem from="1567561262958" duration="10499000" />
       <workItem from="1567576634924" duration="6052000" />
-      <workItem from="1567645864762" duration="7349000" />
+      <workItem from="1567645864762" duration="8707000" />
     </task>
     <servers />
   </component>
