@@ -4,7 +4,6 @@
     <list default="true" id="d73f9440-d011-40c2-914c-c2889e26e2fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/xsis/com/xsis/day07/EmployeeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/xsis/com/xsis/day07/EmployeeDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xsis/day07/EmployeeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day07/EmployeeDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +30,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -45,20 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EmployeeDemo">
-    <configuration name="ABCDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day06.ABCDemo" />
-      <module name="xsis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xsis.day06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.EmployeeDemoLagi">
     <configuration name="Arrays01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xsis.day02.logic.Arrays01" />
       <module name="xsis" />
@@ -98,6 +84,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EmployeeDemoLagi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.day07.EmployeeDemoLagi" />
+      <module name="xsis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xsis.day07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Logic02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xsis.day04.Logic02" />
       <module name="xsis" />
@@ -113,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmployeeDemoLagi" />
         <item itemvalue="Application.EmployeeDemo" />
         <item itemvalue="Application.Logic02" />
         <item itemvalue="Application.Arrays01" />
         <item itemvalue="Application.EmployeeClient" />
-        <item itemvalue="Application.ABCDemo" />
       </list>
     </recent_temporary>
   </component>
