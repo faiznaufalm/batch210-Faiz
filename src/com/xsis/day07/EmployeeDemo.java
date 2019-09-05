@@ -21,10 +21,11 @@ public class EmployeeDemo {
 
     }
 
-    public void findAll(Employee[] em) {
+    void findAll(Employee[] em) {
         System.out.println("Name        SSN         Email               Year of Birth       Salary");
         for (int i = 0; i < em.length; i++) {
-            System.out.println(em[i].getName() + "       " + em[i].getSsn() + "      " + em[i].getEmailAddress() + "     " + em[i].getYearOfbirth() + "      " + em[i].getSalary());
+            System.out.println(em[i].getName() + "       " + em[i].getSsn()
+                    + "      " + em[i].getEmailAddress() + "     " + em[i].getYearOfbirth() + "      " + em[i].getSalary());
         }
     }
 
