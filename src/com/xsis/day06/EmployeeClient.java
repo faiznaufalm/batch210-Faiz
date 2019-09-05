@@ -22,7 +22,7 @@ public class EmployeeClient {
         e1.emailAddress = "faiznaufalm@gmail.com";
         e1.yearOfBirth = 1996;*/
 
-        //mencetak / memanggil objek ke-1
+        //mencetak objek ke-1
 /*
         System.out.println("Nama : " + e1.name);
         System.out.println("SSN : " + e1.ssn);
@@ -38,7 +38,7 @@ public class EmployeeClient {
         //e2.emailAddress = "apurwoyo@gmail.com";
         e2.yearOfBirth = 1996;*/
 
-        //mencetak / memanggil objek ke-2
+        //mencetak objek ke-2
 /*
         System.out.println("Nama : " + e2.name);
         System.out.println("SSN : " + e2.ssn);
@@ -54,7 +54,7 @@ public class EmployeeClient {
         printEmployee2(e2);
 */
 
-       /* //mencetak / memanggil method di class Employee
+       /* //mencetak method yang ada di class Employee
         e1.print();
         e2.print();*/
 

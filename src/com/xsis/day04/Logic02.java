@@ -7,8 +7,8 @@ public class Logic02 {
 
     Logic02 logic = new Logic02();
 
-    //logic.soal01(nums);
-    logic.soal02(arr);
+    logic.soal01(nums);
+    //logic.soal02(arr);
     //logic.soal03(nums);
     //logic.soal04(nums);
     //logic.tes03(arr);
