@@ -1,0 +1,107 @@
+Java Fundamental Quiz
+1.	JVM pertama akan menyimpan class dan variabel ke dalam memory stack lalu akan mengkonversinya ke memory heap.
+
+2.	- Class adalah sebuah template atau blueprint yang digunakan untuk membuat object. di dalam class terdapat atribut dan method untuk object yang akan dibuat.
+- Object adalah instance dari class tertentu. kita bisa membuat banyak object dari sebuah class. setiap object yang dibuat dari class yang sama memiliki method yang sama, tapi bisa berbeda atribut.
+
+3.
+-	Nama
+-	Atribut
+-	Method
+-	Variabel
+
+4.	Untuk memisahkan class - class atau mengelompokkan class - class.
+mengimpor class A yang ada di package one: import com.xsis.pretest.one A;
+
+5.
+-	Local variable adalah variabel yang di definisikan di dalam method atau constructor
+-	Instance variable adalah variabel non-static dan dideklarasikan di dalam class dan di luar method ataupun constructor
+-	Static variable mirip seperti instance variabel hanya saja menggunakan kata static di awalnya, static variable juga tidak terproteksi dan bisa diakses oleh siapapun.
+
+6.
+publc class student {
+	private String nim;
+	private String nama;
+	private float ipk;
+}
+
+-	Encapsulation berguna untuk menyembunyikan data object yang ada di sebuah class dan hanya bisa diakses via method. Hal ini dilakukan untuk memproteksi data dari unauthorized access, konsistensi, dan validasi data
+-	data dapat diubah dengan mudah oleh orang yang tidak memiliki akses
+
+
+
+7.	konsep inheritance adalah membuat class yang didefinisikan dari class lain :
+-	class yang mewariskan disebu parent-class
+-	class yang diwariskan disebut subclass
+-	subclass dapat meng-akses field dan method dari parent-class
+-	subclass bisa memiliki field atau method sendiri
+keuntungan menggunakan inheritance adalah kita dapat menggunakan re-use code jadi kita tidak usah mengulang kode yang sama berulang kali
+
+8.	Parent class : pekerja
+Subclass : manager, progammer
+public class EmployeeLagi {
+    private String name;
+    private String ssn;
+    private String emailAddress;
+    private int yearOfbirth;
+    private double salary;
+
+    public EmployeeLagi(String name, String ssn, String emailAddress, int yearOfbirth, double salary) {
+        if (salary < 1.0) throw new IllegalArgumentException("Salary should be more than 1");
+        this.name = name;
+        this.ssn = ssn;
+        this.emailAddress = emailAddress;
+        this.yearOfbirth = yearOfbirth;
+        this.salary = salary;
+    }
+
+
+subclass manager
+@Override
+public double getSalary() {
+    double totalCommision = this.commision * super.getSalary();
+    return super.getSalary() + totalCommision;
+}
+
+subclass programmer
+@Override
+public double getSalary() {
+    double bonus = super.getSalary();
+    if (this.masakerja > 10){
+        bonus = 5 * super.getSalary();
+    }
+    else if (this.masakerja < 10) {
+        bonus = 2* super.getSalary();
+    }
+    return bonus;
+}
+
+9.	Interface adalah sekumulan method header dan tidak mempunyai body implementation yang akan dipakai oleh class. Dan class yang memakai harus implementasi interface.
+Abstract adalah template pada parent class yang akan diwariskan ke subclass abstract sama dengan interface hanya saja abstract class bisa memiliki fields dan juga constructor.
+
+
+
+
+SQL QUIZ
+1.	alter table employees add column tax NUMERIC (8, 2)
+
+2.	update employees
+set tax = salary * 0.1
+
+3.	update employees
+set tax = 0
+where salary < 7000
+
+4.	select employee_id, first_name||' '||last_name full_name, salary, tax, (salary - tax) total_gaji
+from employees
+group by employee_id,first_name
+
+5.	select b.department_name, count(employee_id) total_pegawai
+from employees a, departments b
+where a.department_id = b.department_id
+and a.department_id is not null
+group by a.department_id, b.department_name
+order by b.department_name
+
+6.	select employee_id, first_name, last_name, job_title, salary, min_salary, max_salary
+from employees, jobs
