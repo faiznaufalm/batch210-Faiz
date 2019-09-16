@@ -16,29 +16,17 @@ public class AccountDemo {
             System.out.print("Enter command (1=debet, 2=transfer, 0=exit) : ");
             int command = sc.nextInt();
             if (command == 1) {
-
                 prosesDebet(acc);
-
             } else if (command == 0) {
                 done = false;
             } else if (command == 2) {
-
-//                double newSaldo = acc2.getSaldo()+ transfer;
                 showAccount(listAccount);
-
-
                 System.out.println("Masukkan Pilihan = ");
                 int pilihAcc = sc.nextInt();
-
                 Account accountReceive = getAccount(listAccount, pilihAcc);
-
                 prosesTransfer(acc, accountReceive);
-
-
             }
         }
-
-
     }
 
     static void prosesDebet(Account account) {
@@ -62,11 +50,11 @@ public class AccountDemo {
 
     static void prosesTransfer(Account account, Account account2) {
         Scanner sc = new Scanner(System.in);
-
         System.out.println("Transfer");
         double transfer = sc.nextDouble();
         System.out.println("Current Saldo: " + account.getSaldo());
-        System.out.printf("Transfer : %.2f %.2f", transfer, account.getSaldo());
+        System.out.printf("Transfer : %.2f", transfer);
+        System.out.println();
         if (transfer > account.getSaldo()) {
             System.out.println("Saldo anda tidak mencukupi");
         } else {
@@ -74,7 +62,6 @@ public class AccountDemo {
             System.out.println("Sisa Saldo " + sisa_saldo);
             account.setSaldo(sisa_saldo);
             System.out.println("saldo awal penerima : " + account2.getSaldo());
-
             account2.setSaldo(account2.getSaldo() + transfer);
             System.out.println("saldo penerima : " + account2.getSaldo());
         }
