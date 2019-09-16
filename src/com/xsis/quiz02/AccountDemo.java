@@ -49,10 +49,9 @@ public class AccountDemo {
         if (tarik % 50000.00 != 0) {
             System.out.println("Tarik tunai harus kelipatan 50 ribu");
         }
-        if(tarik>account.getSaldo()){
+        if (tarik > account.getSaldo()) {
             System.out.println("Saldo Tidak Mencukupi");
-        }
-        else {
+        } else {
             double sisa = account.getSaldo() - tarik;
             System.out.println("Current Saldo : " + account.getSaldo());
             System.out.println("Tarik tunai : " + tarik);
@@ -67,7 +66,7 @@ public class AccountDemo {
         System.out.println("Transfer");
         double transfer = sc.nextDouble();
         System.out.println("Current Saldo: " + account.getSaldo());
-        System.out.printf("Transfer : %.2f %.2f" , transfer,account.getSaldo());
+        System.out.printf("Transfer : %.2f %.2f", transfer, account.getSaldo());
         if (transfer > account.getSaldo()) {
             System.out.println("Saldo anda tidak mencukupi");
         } else {

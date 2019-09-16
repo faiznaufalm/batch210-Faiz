@@ -10,7 +10,7 @@ public class Student {
         this.nim = nim;
         this.nama = nama;
         this.jurusan = jurusan;
-        totalStudent ++;
+        totalStudent++;
     }
 
     /*public static int Hitung(){
